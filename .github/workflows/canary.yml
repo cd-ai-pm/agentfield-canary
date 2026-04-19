@@ -1,0 +1,43 @@
+name: '🐤 canary terraform validate'
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+    branches: [main, master]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    outputs:
+      modules: ${{ steps.list.outputs.modules }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: list
+        run: |
+          set -eu
+          MODULES=$(ls modules/ 2>/dev/null | jq -R -s -c 'split("\n")[:-1]')
+          echo "modules=$MODULES" >> "$GITHUB_OUTPUT"
+
+  validate:
+    needs: discover
+    if: needs.discover.outputs.modules != '[]'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        module: ${{ fromJSON(needs.discover.outputs.modules) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: 1.9.8
+      - name: terraform init + validate
+        working-directory: modules/${{ matrix.module }}
+        run: |
+          terraform init -backend=false -input=false
+          terraform validate
