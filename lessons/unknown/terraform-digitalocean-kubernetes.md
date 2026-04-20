@@ -15,3 +15,7 @@ Real content failure: tf-checks / 🌎 Terraform Full Checks (min): failure. Che
 ## 2026-04-19T18:13:41Z — workflow_broken
 PR: https://github.com/cd-ai-pm/terraform-digitalocean-kubernetes/pull/36
 CI hit known signature `Process completed with exit code 127` in `pr_checks.yml`. release-agent should heal upstream or in caller.
+
+## 2026-04-20T07:18:39Z — workflow_broken
+PR: https://github.com/cd-ai-pm/terraform-digitalocean-kubernetes/pull/50
+CI hit known signature `Process completed with exit code 127` in `pr_checks.yml`. release-agent should heal upstream or in caller.
