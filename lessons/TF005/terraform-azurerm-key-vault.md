@@ -7,3 +7,7 @@ CI hit known signature `Resource not accessible by integration` in `pr_checks.ym
 ## 2026-04-22T08:51:49Z — merged
 PR: https://github.com/cd-ai-pm/terraform-azurerm-key-vault/pull/54
 Squash-merged cleanly as 035549d8. Policy=auto. No human comments.
+
+## 2026-04-22T10:40:15Z — held_green
+PR: https://github.com/cd-ai-pm/terraform-azurerm-key-vault/pull/54
+Post-merge evaluation (+48h): default-branch HEAD has no check-runs configured; treating as held-green. PR title: fix(tf005): add Usage section and refresh auto-generated tables
