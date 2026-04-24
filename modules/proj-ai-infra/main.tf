@@ -7,5 +7,5 @@ terraform {
 }
 
 module "proj_ai_infra" {
-  source = "git::https://github.com/cd-ai-pm/proj-ai-infra.git?ref=main"
+  source = "git::https://github.com/cd-ai-pm/proj-ai-infra.git?ref=dependabot/github_actions/github-actions-f3e4b84a8d"
 }
