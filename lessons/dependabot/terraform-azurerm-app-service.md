@@ -3,3 +3,7 @@
 ## 2026-04-24T21:09:36Z — workflow_broken
 PR: https://github.com/cd-ai-pm/terraform-azurerm-app-service/pull/9
 CI hit known signature `Using auth-type: SERVICE_PRINCIPAL` in `tf-checks.yml`. release-agent should heal upstream or in caller.
+
+## 2026-04-24T21:09:38Z — workflow_broken
+PR: https://github.com/cd-ai-pm/terraform-azurerm-app-service/pull/7
+CI hit known signature `Using auth-type: SERVICE_PRINCIPAL` in `tf-checks.yml`. release-agent should heal upstream or in caller.
