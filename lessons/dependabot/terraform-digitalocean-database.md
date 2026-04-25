@@ -11,3 +11,7 @@ Squash-merged cleanly as 0587532d. Policy=auto_if_clean. No human comments.
 ## 2026-04-25T03:00:22Z — merged
 PR: https://github.com/cd-ai-pm/terraform-digitalocean-database/pull/9
 Squash-merged cleanly as beee94d9. Policy=auto_if_clean. No human comments.
+
+## 2026-04-25T04:02:33Z — merged
+PR: https://github.com/cd-ai-pm/terraform-digitalocean-database/pull/12
+Squash-merged cleanly as 3321e341. Policy=auto_if_clean. No human comments.
