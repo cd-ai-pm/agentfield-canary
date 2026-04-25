@@ -67,3 +67,7 @@ Real content failure: tf-checks-complete-example / 🌎 Terraform Full Checks (m
 ## 2026-04-24T21:21:13Z — needs_human
 PR: https://github.com/cd-ai-pm/terraform-aws-eks-addons/pull/59
 Real content failure: tf-checks-complete-example / 🌎 Terraform Full Checks (max): failure. Check the failing CI log before retrying the same code on this module.
+
+## 2026-04-25T12:38:18Z — heal_held_green
+PR: https://github.com/cd-ai-pm/terraform-aws-eks-addons/pull/59
+Heal eval (+48h): `pr_checks.yml` status indeterminate (no_checks); treating as held-green. PR title: fix(ci): heal pr_checks.yml — workflow missing token permissions
