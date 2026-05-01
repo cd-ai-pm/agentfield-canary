@@ -7,3 +7,7 @@ Squash-merged cleanly as 86d81744. Policy=auto_if_clean. No human comments.
 ## 2026-05-01T03:00:13Z — merged
 PR: https://github.com/cd-ai-pm/terraform-digitalocean-kubernetes/pull/69
 Squash-merged cleanly as cd6e3e7f. Policy=auto_if_clean. No human comments.
+
+## 2026-05-01T09:00:02Z — held_green
+PR: https://github.com/cd-ai-pm/terraform-digitalocean-kubernetes/pull/69
+Post-merge evaluation (+48h): default-branch HEAD has no check-runs configured; treating as held-green. PR title: fix(tf001): [TF001] Pin digitalocean provider version with ~>
