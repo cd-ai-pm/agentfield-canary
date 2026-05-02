@@ -15,3 +15,7 @@ Post-merge evaluation (+48h): default-branch HEAD has no check-runs configured; 
 ## 2026-05-01T09:00:03Z — held_green
 PR: https://github.com/cd-ai-pm/terraform-digitalocean-kubernetes/pull/64
 Post-merge evaluation (+48h): default-branch HEAD has no check-runs configured; treating as held-green. PR title: fix(tf001): [TF001] Pin digitalocean provider version with ~>
+
+## 2026-05-02T02:01:28Z — merged
+PR: https://github.com/cd-ai-pm/terraform-digitalocean-kubernetes/pull/74
+Squash-merged cleanly as baeee39b. Policy=auto_if_clean. No human comments.
