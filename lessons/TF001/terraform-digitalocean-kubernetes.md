@@ -23,3 +23,7 @@ Squash-merged cleanly as baeee39b. Policy=auto_if_clean. No human comments.
 ## 2026-05-02T15:51:30Z — held_green
 PR: https://github.com/cd-ai-pm/terraform-digitalocean-kubernetes/pull/74
 Post-merge evaluation (+48h): default-branch HEAD has no check-runs configured; treating as held-green. PR title: fix(tf001): [TF001] Pin digitalocean provider version with ~> or a range
+
+## 2026-05-05T02:01:25Z — workflow_broken
+PR: https://github.com/cd-ai-pm/terraform-digitalocean-kubernetes/pull/80
+CI hit known signature `Validate PR title` in `pr-validation.yml`. release-agent should heal upstream or in caller.
