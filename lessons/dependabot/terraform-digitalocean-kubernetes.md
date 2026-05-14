@@ -23,3 +23,7 @@ Squash-merged cleanly as 19d3dbec. Policy=auto. No human comments.
 ## 2026-05-14T03:00:18Z — workflow_broken
 PR: https://github.com/cd-ai-pm/terraform-digitalocean-kubernetes/pull/84
 CI hit known signature `Validate PR title` in `automerge.yml`. release-agent should heal upstream or in caller.
+
+## 2026-05-14T03:00:20Z — workflow_broken
+PR: https://github.com/cd-ai-pm/terraform-digitalocean-kubernetes/pull/82
+CI hit known signature `Validate PR title` in `automerge.yml`. release-agent should heal upstream or in caller.
